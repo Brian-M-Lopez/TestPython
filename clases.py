@@ -38,7 +38,7 @@ class Circulo:
 
     # metodo para mostrar por consola un print mas amigable del circulo
     def __str__(self):
-            return f'Tu circulo tiene un radio de:📏 {self.rad}cm \n un area de 📏 {self.circle_area}cm \n un perimetro de 📏 {self.circle_perimetro}cm '
+            return f'Tu circulo tiene un radio de:📏 {int(self.rad)}cm \n un area de 📏 {int(self.circle_area)}cm \n un perimetro de 📏 {int(self.circle_perimetro)}cm '
     
 # FUNCIONES PARA CREAR CIRCULOS:
 
